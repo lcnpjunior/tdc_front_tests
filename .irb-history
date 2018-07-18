@@ -1,0 +1,50 @@
+query("android.widget.EditText, :text => 'E-mail'")[1]
+query("android.widget.EditText, :text => 'E-mail'")[1].methods
+query("android.widget.EditText, :text => 'E-mail'")[1].tap
+touch("android.widget.EditText, :text => 'E-mail'")[1]
+touch("android.widget.EditText, :text => 'E-mail'")[0]
+touch("android.widget.EditText, :text => 'E-mail'")
+query("android.widget.EditText, :EditText => 'E-mail'")
+query("android.widget.EditText, :id => 'NoResourceEntry-25'")
+query("*, :id => 'NoResourceEntry-25'")
+query("android.widget.EditText, :id => 'NoResourceEntry-25'")
+query("android.widget.EditText, :id => NoResourceEntry-25")
+query("android.widget.EditText, id:NoResourceEntry-25")
+query("android.widget.EditText  id:NoResourceEntry-25")
+query("android.widget.EditText id:NoResourceEntry-25")
+query("android.widget.EditText)
+"
+query("android.widget.EditText")
+"
+)
+aodjn
+query("android.widget.EditText")
+exit-program
+star_test_back_graound
+start_test_server_in_background
+query("android.widget.EditText")
+query("android.widget.EditText")[0]
+query("android.widget.EditText")[1]
+query("android.widget.EditText")[0]
+query("android.widget.EditText")
+query("android.widget.EditText")
+query("android.widget.EditText")[0]
+query("android.widget.EditText")[1]
+touch("android.widget.EditText")[0]
+input = query("android.widget.EditText")
+input[0]
+touch(input[0])
+hide_soft_keyboard
+touch(input[1])
+exit-program
+start_test_server_in_background
+query("*")
+query("*, text:'Continuous Testing'")
+query("*, text:'Continuous Testing'")
+query("* text:'Continuous Testing'")
+touch("* text:'Continuous Testing'")
+touch("* text:'ENVIAR'")
+touch("* text:'ENVIAR'")
+query("*")
+query("* text:'Erro ao salvar o contato'")
+exit-program
