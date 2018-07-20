@@ -1,0 +1,1 @@
+report_json: --color -f progress -f json -o execution_log.json
