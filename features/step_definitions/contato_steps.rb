@@ -1,7 +1,7 @@
 require 'calabash-android/calabash_steps'
 
 Dado(/^que esteja na tela inicial do aplicativo$/) do
-  sleep 5
+  wait_for_elements_exist("android.widget.EditText")
   @inputs =  query("android.widget.EditText")
 end
   
@@ -17,6 +17,6 @@ Quando(/^envio o contato$/) do
 end
 
 Então(/^a mensagem "([^"]*)" é exibida$/) do |mensagem|
-  sleep 5
+wait_for_elements_exist("com.android.internal.widget.DialogTitle id:'alertTitle'")
   expect(query("com.android.internal.widget.DialogTitle id:'alertTitle'").first['text']). to eq mensagem
 end
